@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,13 +11,16 @@ namespace Oefening3
     {
         static void Main(string[] args)
         {
-            for(int i = 1; i <= 100; i++)
+            int counter = 1;
+            do
             {
-                if(i * 7 <= 546)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine(counter);
+                    counter++;
+
+                    
                 }
-            }
+            }while (counter * 7 <= 546);
         }
     }
 }

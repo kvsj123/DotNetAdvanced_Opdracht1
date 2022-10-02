@@ -36,6 +36,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(36, 91);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
