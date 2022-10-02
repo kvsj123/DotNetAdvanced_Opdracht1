@@ -16,9 +16,7 @@ namespace Oefening3
             {
                 {
                     Console.WriteLine(counter);
-                    counter++;
-
-                    
+                    counter++;                    
                 }
             }while (counter * 7 <= 546);
         }

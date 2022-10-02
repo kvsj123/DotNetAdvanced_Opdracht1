@@ -15,13 +15,15 @@ namespace Oefening7
         private void btnCalc_Click(object sender, EventArgs e)
         {
             int som=0;
-
             int result = Convert.ToInt32(tbNumber.Text);
+            int counter = 1;
 
-            for(int i = 1; i <= result; i++ )
+            do
             {
-                som += i;
+                som += counter;
+                counter++;
             }
+            while(counter <= result);
 
             tbRes.Text = som.ToString();
         }

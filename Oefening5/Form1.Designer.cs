@@ -1,6 +1,6 @@
 ﻿namespace Oefening5
 {
-    partial class Form1
+    partial class CelsiusToFahrenheit
     {
         /// <summary>
         ///  Required designer variable.
@@ -89,7 +89,7 @@
             this.conv2.UseVisualStyleBackColor = true;
             this.conv2.Click += new System.EventHandler(this.conv2_Click);
             // 
-            // Form1
+            // CelsiusToFahrenheit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,8 @@
             this.Controls.Add(this.Ftb);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CelsiusToFahrenheit";
+            this.Text = "CelsiusToFahrenheit";
             this.ResumeLayout(false);
             this.PerformLayout();
 

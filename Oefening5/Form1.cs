@@ -1,8 +1,8 @@
 namespace Oefening5
 {
-    public partial class Form1 : Form
+    public partial class CelsiusToFahrenheit : Form
     {
-        public Form1()
+        public CelsiusToFahrenheit()
         {
             InitializeComponent();
         }
@@ -22,7 +22,6 @@ namespace Oefening5
             catch 
             {
                 Ctb.Text = "Vul iets in!";
-                //Ctb.ForeColor = Color.Red;
             }
         }
 
@@ -36,7 +35,6 @@ namespace Oefening5
             catch
             {
                 Ftb.Text = "Vul iets in!";
-                //Ftb.ForeColor = Color.Red;
             }
         }
     }
